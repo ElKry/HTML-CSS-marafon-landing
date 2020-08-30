@@ -1,0 +1,6 @@
+.section_first {
+    width: 100%;
+    height: 800px;
+    background-image: url("../img/BG-Image.jpg");
+    background-size: cover;
+}

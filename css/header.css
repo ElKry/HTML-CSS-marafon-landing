@@ -1,0 +1,30 @@
+.header__logo {
+    display: block;
+    width: 175px;
+    margin: 25px 0;
+}
+
+.header__info {
+    display: flex;
+    margin: 25px 0;
+    justify-content: flex-end;
+}
+
+.header__info__item {
+    margin-right: 40px;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 0.15px;
+    color: #ffffff;
+    padding-left: 30px;
+    background-size: 24px 24px;
+    background-repeat: no-repeat;
+}
+
+.header__info__item_time {
+    background-image: url("../img/access_time_24px.svg");
+}
+
+.header__info__item_phone {
+    background-image: url("../img/phone_24px.svg");
+}

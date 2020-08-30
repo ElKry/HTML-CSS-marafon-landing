@@ -1,0 +1,24 @@
+.navigation {
+    border-radius: 12px;
+    background-color: #fff;
+    padding: 0 45px;
+    ;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.15px;
+    padding: 0;
+    margin: 0;
+}
+
+.menu__item__link {
+    padding: 10px 40px 10px 0;
+    display: inline-flex;
+    height: 60px;
+    align-items: center;
+}
