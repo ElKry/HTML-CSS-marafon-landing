@@ -1,6 +1,39 @@
+.section {
+    padding: 100px 0;
+}
+
 .section_first {
     width: 100%;
     height: 800px;
     background-image: url("../img/BG-Image.jpg");
     background-size: cover;
+    padding: 0;
+}
+
+.section_white {
+    background-color: #F5F5F5;
+}
+
+.section_with-img {
+    height: 765px;
+    padding: 0;
+}
+
+.section__block-with-img {
+    position: absolute;
+    margin-top: -80px;
+}
+
+.section_dog {
+    height: 500px;
+    background-color: #29C3BE;
+    background-image: url("../img/BG-dog.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.section_service {
+    background-image: url(../img/blob-3.png);
+    background-repeat: no-repeat;
+    background-position: 100% -550px;
 }

@@ -1,0 +1,17 @@
+.block-with-img {
+    height: 700px;
+    width: 100%;
+    border-radius: 40px;
+    background-color: #5D62B5;
+    background-image: url("../img/blob-2.png");
+    padding: 100px 80px;
+    background-repeat: no-repeat;
+    background-position: -13px 273px;
+}
+
+.block-with-img__img {
+    margin-top: 55px;
+    filter: drop-shadow(0px 8px 16px rgba(38, 38, 38, 0.24));
+    border-radius: 40px;
+    width: 100%;
+}

@@ -7,12 +7,13 @@
     width: 90%;
     width: 1020px;
     margin: 0 auto;
+    position: relative;
   }
   
   .grid {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-gap: 20px;
+    grid-gap: 24px;
   }
   
   .grid__col {
@@ -63,6 +64,10 @@
     grid-column: auto / span 12;
   }
 
+  .grid__col_ofset {
+    grid-column: 8 / 12;
+  }
+
 .text {
     font-size: 16px;
     line-height: 24px;
@@ -76,21 +81,3 @@
     color: #F5F5F5;
 }
 
-.h_1 {
-    font-size: 56px;
-    line-height: 56px;
-    margin: 125px 0 45px;
-}
-
-.h_2 {
-    font-size: 36px;
-    line-height: 42px;
-}
-
-.h_white {
-    color: #ffffff;
-}
-
-.h_black {
-    color: #000000;
-}
