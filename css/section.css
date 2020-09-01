@@ -37,3 +37,8 @@
     background-repeat: no-repeat;
     background-position: 100% -550px;
 }
+
+.section_contact {
+    background-image: url("../img/contact-image.jpg");
+    background-size: cover;
+}
