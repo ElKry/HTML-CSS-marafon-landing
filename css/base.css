@@ -64,12 +64,20 @@
     grid-column: auto / span 12;
   }
 
+  .grid__col_ofset-6 {
+    grid-column: 7 / 13;
+  }
+
   .grid__col_ofset-7 {
     grid-column: 8 / 13;
   }
 
   .grid__col_ofset-8 {
     grid-column: 9 / 13;
+  }
+
+  .grid__col_align-center {
+    align-self: center;
   }
 
 .text {
