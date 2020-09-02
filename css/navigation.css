@@ -23,6 +23,10 @@
     cursor: pointer;
 }
 
+.menu__item__link:hover {
+    color: #F2726F;
+}
+
 .menu__item__link_more::after {
     content: 'ˇ';
     font-size: 30px;

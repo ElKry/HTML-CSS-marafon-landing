@@ -41,4 +41,5 @@
 .section_contact {
     background-image: url("../img/contact-image.jpg");
     background-size: cover;
+    height: 980px;
 }
