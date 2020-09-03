@@ -11,50 +11,53 @@
 </head>
 
 <body>
-    <section class="section section_first">
+
+
+    <header class="header">
         <div class="wrapper">
-            <header class="header">
-                <div class="grid">
-                    <div class="grid__col grid__col_4">
-                        <a class="header__logo" href="/"><img src="img/Logo-Placeholder-5.png" alt=""></a>
+            <div class="grid">
+                <div class="grid__col grid__col_4">
+                    <a class="header__logo" href="/"><img src="img/Logo-Placeholder-5.png" alt=""></a>
+                </div>
+                <div class="grid__col grid__col_8">
+                    <div class="header__info">
+                        <div class="header__info__item header__info__item_time">
+                            <span>BOARDING HOURS<br>Mon - Sat: 7:00 am - 6:00 pm</span>
+                        </div>
+                        <div class="header__info__item header__info__item_phone">
+                            <span>CALL US<br>(555) Pup-Cares</span>
+                        </div>
+                        <button class="button header__button">Make an Appointment</button>
                     </div>
-                    <div class="grid__col grid__col_8">
-                        <div class="header__info">
-                            <div class="header__info__item header__info__item_time">
-                                <span>BOARDING HOURS<br>Mon - Sat: 7:00 am - 6:00 pm</span>
-                            </div>
-                            <div class="header__info__item header__info__item_phone">
-                                <span>CALL US<br>(555) Pup-Cares</span>
-                            </div>
-                            <button class="button header__button">Make an Appointment</button>
+                </div>
+            </div>
+            <nav class="navigation">
+                <div class="grid">
+                    <div class="grid__col grid__col_10">
+                        <ul class="menu">
+                            <li class="menu__item"><a class="menu__item__link menu__item__link_more">Services</a></li>
+                            <li class="menu__item"><a class="menu__item__link">Specials</a></li>
+                            <li class="menu__item"><a class="menu__item__link">Facilities</a></li>
+                            <li class="menu__item"><a class="menu__item__link">Reviews</a></li>
+                            <li class="menu__item"><a class="menu__item__link menu__item__link_more">Shop</a></li>
+                            <li class="menu__item"><a class="menu__item__link">About</a></li>
+                        </ul>
+                    </div>
+                    <div class="grid__col grid__col_2">
+                        <div class="navigation__left">
+                            <div class="navigation__search"></div>
+                            <a href="" class="navigation__shop"></a>
                         </div>
                     </div>
                 </div>
-                <nav class="navigation">
-                    <div class="grid">
-                        <div class="grid__col grid__col_10">
-                            <ul class="menu">
-                                <li class="menu__item"><a class="menu__item__link menu__item__link_more">Services</a></li>
-                                <li class="menu__item"><a class="menu__item__link">Specials</a></li>
-                                <li class="menu__item"><a class="menu__item__link">Facilities</a></li>
-                                <li class="menu__item"><a class="menu__item__link">Reviews</a></li>
-                                <li class="menu__item"><a class="menu__item__link menu__item__link_more">Shop</a></li>
-                                <li class="menu__item"><a class="menu__item__link">About</a></li>
-                            </ul>
-                        </div>
-                        <div class="grid__col grid__col_2">
-                            <div class="navigation__left">
-                                <div class="navigation__search"></div>
-                                <a href="" class="navigation__shop"></a>
-                            </div>
-                        </div>
-                    </div>
-                </nav>
-            </header>
+            </nav>
             <h1 class="h h_1 h_white">Premier dog boarding,<br>daycare & day spa</h1>
             <button class="button">Make an Appointment</button>
         </div>
-    </section>
+    </header>
+
+
+
     <section class="section section_with-img section_white">
         <div class="wrapper">
             <div class="block-with-img section__block-with-img">
@@ -203,7 +206,7 @@
                     <img src="img/contact-back.png" class="contact-form__back" alt="">
                     <div class="contact-form__wrapper">
                         <h2 class="h h_2 h_white">Make an appointment</h2>
-                        <form action="">
+                        <form action="/">
                             <div class="grid">
                                 <div class="grid__col grid__col_6">
                                     <input class="contact-form__input" type="text" name="name" placeholder="Name">
@@ -225,7 +228,7 @@
                                     </div>
                                 </div>
                                 <div class="grid__col grid__col_12">
-                                    <textarea class="contact-form__textarea" name="about" id="" cols="30"
+                                    <textarea class="contact-form__textarea" name="about" cols="30"
                                         rows="10">Tell us about your puppers include his/her name</textarea>
                                 </div>
                                 <div class="grid__col grid__col_ofset-6">
