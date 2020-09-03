@@ -58,6 +58,7 @@
     <section class="section section_with-img section_white">
         <div class="wrapper">
             <div class="block-with-img section__block-with-img">
+                <img class="block-with-img__decor" src="img/Stylize-Circles.png" alt="">
                 <h2 class="h h_2 h_white">
                     <span class="h__subtitle h__subtitle_gray">Who we are</span>
                     <span class="h__title">Nemo enim ipsam voluptatem quia<br>voluptas in proident</span>
@@ -114,8 +115,11 @@
     <section class="section section_dog">
         <div class="grid wrapper">
             <div class="grid__col_ofset-7">
-                <h3 class="h h_2 h_white">Nemo enim ipsam voluptatem quia voluptas in proident</h3>
-                <button class="button">Make an Appointment</button>
+                <div class="dog-info">
+                    <h3 class="h h_2 h_white">Nemo enim ipsam voluptatem quia voluptas in proident</h3>
+                    <button class="button">Make an Appointment</button>
+                    <img src="img/tennis-ball.png" class="dog-info__ball" alt="">
+                </div>
             </div>
         </div>
     </section>
@@ -196,36 +200,41 @@
         <div class="grid wrapper">
             <div class="grid__col grid__col_7">
                 <div class="contact-form">
-                    <h2 class="h h_2 h_white">Make an appointment</h2>
-                    <form action="">
-                        <div class="grid">
-                            <div class="grid__col grid__col_6">
-                                <input class="contact-form__input" type="text" name="name" placeholder="Name">
-                            </div>
-                            <div class="grid__col grid__col_6">
-                                <input class="contact-form__input" type="text" name="email" placeholder="Email">
-                            </div>
-                            <div class="grid__col grid__col_6">
-                                <input class="contact-form__input" type="text" name="phone" placeholder="Phone Number">
-                            </div>
-                            <div class="grid__col grid__col_6">
-                                <div class="contact-form__selectdiv">
-                                    <select class="contact-form__select" name="select">
-                                        <option value="Select Service 1" selected>Select Service 1</option>
-                                        <option value="Select Service 2">Select Service 2</option>
-                                        <option value="Select Service 3">Select Service 3</option>
-                                    </select>
+                    <img src="img/contact-back.png" class="contact-form__back" alt="">
+                    <div class="contact-form__wrapper">
+                        <h2 class="h h_2 h_white">Make an appointment</h2>
+                        <form action="">
+                            <div class="grid">
+                                <div class="grid__col grid__col_6">
+                                    <input class="contact-form__input" type="text" name="name" placeholder="Name">
+                                </div>
+                                <div class="grid__col grid__col_6">
+                                    <input class="contact-form__input" type="text" name="email" placeholder="Email">
+                                </div>
+                                <div class="grid__col grid__col_6">
+                                    <input class="contact-form__input" type="text" name="phone"
+                                        placeholder="Phone Number">
+                                </div>
+                                <div class="grid__col grid__col_6">
+                                    <div class="contact-form__selectdiv">
+                                        <select class="contact-form__select" name="select">
+                                            <option value="Select Service 1" selected>Select Service 1</option>
+                                            <option value="Select Service 2">Select Service 2</option>
+                                            <option value="Select Service 3">Select Service 3</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="grid__col grid__col_12">
+                                    <textarea class="contact-form__textarea" name="about" id="" cols="30"
+                                        rows="10">Tell us about your puppers include his/her name</textarea>
+                                </div>
+                                <div class="grid__col grid__col_ofset-6">
+                                    <input class="contact-form__button button" value="Make an Appointment"
+                                        type="submit">
                                 </div>
                             </div>
-                            <div class="grid__col grid__col_12">
-                                <textarea class="contact-form__textarea" name="about" id="" cols="30"
-                                    rows="10">Tell us about your puppers include his/her name</textarea>
-                            </div>
-                            <div class="grid__col grid__col_ofset-6">
-                                <input class="contact-form__button button" value="Make an Appointment" type="submit">
-                            </div>
-                        </div>
-                    </form>
+                        </form>
+                    </div>
                 </div>
             </div>
             <div class="grid__col_ofset-8 grid__col_align-center">
@@ -307,10 +316,12 @@
             <div class="wrapper">
                 <div class="grid">
                     <div class="grid__col grid__col_8">
-                        <p class="footer__copyright__text">Tagline lorem ipsum dolor sit amet, consectetur adipiscing eiusmod</p>
+                        <p class="footer__copyright__text">Tagline lorem ipsum dolor sit amet, consectetur adipiscing
+                            eiusmod</p>
                     </div>
                     <div class="grid__col grid__col_4">
-                        <pre class="footer__copyright__text">© 2018 Company.   <b>Privacy Policy | Terms & Conditions</b></pre>
+                        <pre
+                            class="footer__copyright__text">© 2018 Company.   <b>Privacy Policy | Terms & Conditions</b></pre>
                     </div>
                 </div>
             </div>
