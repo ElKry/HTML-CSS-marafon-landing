@@ -1,5 +1,6 @@
 @import 'normalize.css';
-@import 'base.css';
+@import 'wrapper.css';
+@import 'grid.css';
 @import 'heading.css';
 @import 'section.css';
 @import 'header.css';

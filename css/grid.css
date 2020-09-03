@@ -1,24 +1,14 @@
-* {
-    box-sizing: border-box;
-    font-family: Roboto, sans-serif;
-    letter-spacing: 0.15px;
-  }
-
-  .wrapper {
-    width: 90%;
-    width: 1020px;
-    margin: 0 auto;
-    position: relative;
-  }
-  
   .grid {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-gap: 24px;
   }
   
-  .grid__col {
-
+  .grid_wrapper {
+    width: 90%;
+    width: 1020px;
+    margin: 0 auto;
+    position: relative;
   }
   
   .grid__col_2 {

@@ -12,7 +12,16 @@
     line-height: 1.15; /* 1 */
     -webkit-text-size-adjust: 100%; /* 2 */
   }
-  
+
+
+  /*Установить для всех элементов*/
+
+  * {
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.15px;
+  }
+
   /* Sections
      ========================================================================== */
   
