@@ -35,3 +35,17 @@
     background-size: cover;
     height: 980px;
 }
+
+.section_impact {
+    background-image: url(../img/Blob-4.png);
+    background-repeat: no-repeat;
+    background-color: #29C3BE;
+    background-position: top right;
+}
+
+.section__img-dog {
+    border-radius: 40px;
+    position: absolute;
+    right: 0;
+    top: -185px;
+}
