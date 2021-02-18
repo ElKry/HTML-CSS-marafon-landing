@@ -14,11 +14,11 @@
     padding-left: 0;
 }
 
-.footer__menu__item {
+.footer__menu-item {
     margin-bottom: 10px;
 }
 
-.footer__menu__link {
+.footer__menu-link {
     text-decoration: none;
     font-weight: bold;
     font-size: 14px;
@@ -26,7 +26,7 @@
     color: #4B4B4B;
 }
 
-.footer__menu__link:hover {
+.footer__menu-link:hover {
     color: #F2726F;
 }
 
@@ -35,7 +35,7 @@
     padding-left: 0;
 }
 
-.footer__contacts__item {
+.footer__contacts-item {
     padding-left: 42px;
     background-position: left 3px;
     background-repeat: no-repeat;
@@ -45,19 +45,19 @@
     color: #4B4B4B;
 }
 
-.footer__contacts__item_address {
+.footer__contacts-item_address {
     background-image: url(../img/contacts/place_24px.png);
 }
 
-.footer__contacts__item_phone {
+.footer__contacts-item_phone {
     background-image: url(../img/contacts/smartphone_24px.png);
 }
 
-.footer__contacts__item_email {
+.footer__contacts-item_email {
     background-image: url(../img/contacts/email_24px.png);
 }
 
-.footer__contacts__item_time {
+.footer__contacts-item_time {
     background-image: url(../img/contacts/timer_24px.png);
 }
 
@@ -81,6 +81,6 @@
     color: #ffffff;
 }
 
-.footer__copyright__text {
+.footer__copyright-text {
     margin: 0;
 }

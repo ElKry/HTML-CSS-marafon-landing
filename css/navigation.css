@@ -15,7 +15,7 @@
     margin: 0;
 }
 
-.menu__item__link {
+.menu__item-link {
     padding: 10px 40px 10px 0;
     display: inline-flex;
     height: 60px;
@@ -23,11 +23,11 @@
     cursor: pointer;
 }
 
-.menu__item__link:hover {
+.menu__item-link:hover {
     color: #F2726F;
 }
 
-.menu__item__link_more::after {
+.menu__item-link_more::after {
     content: 'ˇ';
     font-size: 30px;
     margin-top: 20px;
